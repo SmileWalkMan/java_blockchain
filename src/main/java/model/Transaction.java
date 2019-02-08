@@ -83,7 +83,7 @@ public class Transaction {
     /*
     验证交易签名
      */
-    private boolean verify(Transaction prevTx){
+    public boolean verify(Transaction prevTx){
         if(coinbaseTx()){
             return true;
         }
