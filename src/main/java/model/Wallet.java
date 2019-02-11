@@ -12,6 +12,7 @@ import java.util.Map;
 public class Wallet {
     private String publicKey;   //公钥
     private String privateKey;   //私钥
+    public Wallet(){}
     public Wallet(String publicKey){
         this.publicKey=publicKey;
     }
